@@ -53,7 +53,7 @@ const IssueDetail = () => {
                         </div>
                         <div className="card-body">
                             {
-                                loading&&<div className="spinner-border" role="status"></div>
+                                loading && <div className="spinner-border" role="status"></div>
                             }
                             <ReactMarkdown escapeHtml={false} className="card-text">{issue.body}</ReactMarkdown>
                         </div>

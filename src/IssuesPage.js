@@ -29,7 +29,7 @@ const IssuesPage = () => {
         <div className="container">
             {
                 //loading indicator
-                loading&&<div className="spinner-border" role="status"></div>
+                loading && <div className="spinner-border" role="status"></div>
             }
             <ul className="list-group">
                 {
